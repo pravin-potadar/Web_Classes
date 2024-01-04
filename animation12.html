@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Animation</title>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+	<style type="text/css">
+		
+		.box{
+			width: 200px;
+			height: 200px;
+			background: red;
+			animation-name: demo;
+			animation-duration: 4s;
+			animation-timing-function: linear;
+			animation-play-state: paused;
+			animation-iteration-count: infinite;
+		}
+
+		@keyframes demo{
+
+			0%{
+				margin-top: 0;
+				margin-left: 0;
+			}
+			100%{
+				margin-top: 0;
+				margin-left: 1050px;
+			}
+		}
+
+	</style>
+
+</head>
+<body>
+
+	<div id="secdetails" class="box"></div>
+
+	<script type="text/javascript">
+		
+		$(document).ready(function () {
+
+			 $('#secdetails').mouseout(function() {
+		         $(this).css("animation-play-state","running");
+		    });
+		});
+
+	</script>
+
+</body>
+</html>

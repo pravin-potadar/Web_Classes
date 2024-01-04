@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+        body{
+            background-image: url(https://cdn.pixabay.com/photo/2015/10/30/20/13/sunrise-1014712_1280.jpg);
+            background-size: cover;
+           margin: 0;
+           padding: 0;
+        }
+        .box{
+            display: inline-block;
+            border: dotted;
+            border-color: #fff;
+            border-radius: 20px;
+            margin: 58px 0px 0px 1009px;
+        }
+
+        fieldset{
+            width: 18%;
+            margin: -6px -104px 19px 19px ;
+            background: rgba(0, 0, 0, 0.396);
+            
+            
+            
+        }
+        form{
+            padding: 25px;
+            margin: 10px;
+            display: inline-block;
+
+        }
+        label{
+            display: block;
+            font-weight: 600;
+           
+        }
+        label,input{
+            padding: 6px;
+        }
+        input{
+            margin: 5px;
+        }
+        select,option{
+           margin: 10px;
+        }
+        .box1 input{
+            margin: 5px;
+            padding: 5px;
+            font-weight: 600;
+            
+
+        }
+
+        label,input,p{
+            color: #fff;
+        }
+        option{
+            color: black;
+        }
+        input{
+            background: none;
+        }
+        img{
+            position:absolute;
+            width: 50px;
+            height: 50px;
+            background: white;
+            border-radius: 30px;
+           left: 20px;
+           bottom: 30px;
+        }
+        .box4 input{
+
+            background: rgba(255, 255, 255, 0.968); 
+            height: 150px;
+            width: 10%;
+            position: absolute;
+            bottom: 63px;
+            left: 60px;
+            border-radius: 20px 20px 20px 0;
+            color: black;
+        
+        }
+        .box4{
+            opacity: 0;
+        }
+
+        .box6,.box4:hover{
+            opacity: 1;
+        }
+
+    </style>
+</head>
+<body>
+<div class="box">
+    <fieldset >
+        <legend><p>Parsonal Information</p></legend>
+        <form action="">
+            <label for="">Fast Name</label>
+            <input type="text"  placeholder="Enter Fast Name">
+            <label for="">Last Name</label>
+            <input type="text" placeholder="Enter Last Name">
+            <label for="">E-mail</label>
+            <input type="email" placeholder="Enter Your E-mail">
+            <label for="">Contact</label>
+            <input type="text" placeholder="Enter Your Contact">
+            <label for="">Address</label>
+            <input type="address" placeholder="Enter Your Address...">
+            
+            <select name="" id="">
+                <option value="" disabled selected value>Select Category</option>
+                <option value="">OBC</option>
+                <option value="">OPEN</option>
+                <option value="">SE</option>
+                <option value="">SBC</option>
+                <option value="">VJ</option>
+                <option value="">ST</option>
+               
+            </select>
+
+            <label>Gender</label>
+            <input type="radio" name="gender" checked><span>Male</span>
+            <input type="radio" name="gender"><span>Female</span>
+            <input type="radio" name="gender"><span>Other</span>
+    
+           <div class="box1">
+            <input type="submit" value="Register">
+            <input type="reset">
+    
+           </div>
+    
+
+        </form>
+    </fieldset>
+
+</div>
+<div class="box6">
+    
+        <img src="https://th.bing.com/th/id/OIP.Nf-m41NGgoClnltGcriroAHaHl?pid=ImgDet&rs=1" alt="">
+    <div class="box4">\
+        <input type="address" placeholder="Enter Your Massage....">
+        
+    </div>
+</div>
+</body>
+</html>

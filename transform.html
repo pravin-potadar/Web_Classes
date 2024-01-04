@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Transform</title>
+
+	<style type="text/css">z
+		
+		.mainBox{
+			width: 90%;
+			height: 100px;
+			transform: translate(50px, 200px);
+			border-bottom: 3px solid black;
+		}
+		
+		.box{
+			width: 10%;
+			height: 100px;
+			background: green;
+			transition: all 10s;
+			animation-name: demo1;
+			animation-duration: 5s;
+		}
+
+		@keyframes demo1{
+			0%{	
+				transform: translate(0px,0px);
+			}
+			10%{	
+				transform: translate(20px,-50px);
+			}
+			20%{	
+				transform: translate(50px,-80px);
+			}
+			30%{	
+				transform: translate(80px,-80px);
+			}
+			40%{	
+				transform: translate(110px,-80px);
+			}
+			50%{	
+				transform: translate(140px,-80px);
+			}
+			60%{	
+				transform: translate(170px,-80px);
+			}
+			70%{	
+				transform: translate(200px,-80px);
+			}
+			80%{	
+				transform: translate(230px,-30px);
+			}
+			90%{	
+				transform: translate(260px,-10px);
+			}
+			100%{	
+				transform: translate(290px,0px);
+			}
+		}
+
+	</style>
+
+</head>
+<body>
+
+	<div class="mainBox">
+		<div class="box"></div>
+	</div>
+
+</body>
+</html>

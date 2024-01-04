@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+  </head>
+  <style>
+    .box1 {
+      position: fixed;
+    }
+
+    .box2 {
+      position: absolute;
+      display: inline-block;
+      margin: 240px 1px 0px 529px;
+    }
+    form {
+      border: 2px solid black;
+      width: 100%;
+      padding: 20px;
+      text-align: center;
+    }
+    label,
+    input {
+      margin-bottom: 10px;
+    }
+    .login input {
+      background: rgba(211, 202, 202, 0.925);
+      color: rgba(7, 7, 161, 0.629);
+      padding: 5px;
+    }
+    fieldset{
+      width: 32%;
+    }
+    
+  </style>
+  <body>
+    <div class="box1">
+      <img
+        src="https://cdn.pixabay.com/photo/2017/05/11/11/15/workplace-2303851_1280.jpg"
+        alt=""
+      />
+    </div>
+
+    <div class="box2">
+      <fieldset>
+        <legend><b><h4>Insta</h4></b></legend>
+
+        <form action="">
+          <h3>Login Page</h3>
+          <label for="">User ID</label>
+          <input type="text" placeholder="Enter Your User ID" />
+          <label for="">Password</label>
+          <input type="password" placeholder="Enter Your Password" />
+          <div class="login">
+            <input type="Submit" value="Login" />
+          </div>
+        </fieldset>
+        </form>
+      </div>
+  </body>
+</html>

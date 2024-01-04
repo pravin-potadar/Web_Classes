@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Hotel Menu</title>
+	<style type="text/css">
+		body{
+			margin: 0;
+			padding: 0;
+		}
+		.heading{
+			border: 10px solid red;
+			width: 99%;
+			display: flex;
+			justify-content: center;
+			font-size: 60px;
+			font-weight: 600px;
+			background: linear-gradient(red,yellow);
+		}
+
+		.heading1{
+			justify-content: center;
+			display: flex;
+			background: lightyellow;
+		}
+		.heading1 h3{
+			font-weight: 600;
+			letter-spacing: 5px;
+		}
+
+		.box{
+			background: linear-gradient(blue,yellow);
+		}
+
+		.heading h1{
+			margin: 1px 1px 1px 1px;
+			padding: 1px 1px 1px 1px;
+		}
+
+		.heading img{
+			position: absolute;
+			height: 200px;
+			width: 200px;
+			left: 20px;
+		}
+
+		.dish-items{ 
+			display: flex;
+			flex-direction: row;
+			flex-wrap: wrap;
+			justify-content: space-evenly ;
+			
+		}
+
+		.dish{
+			width: 200px;
+			border: 2px solid black;
+			margin-top: 50px;
+		}
+
+		.dish img{
+			width: 150px;
+			height: 150px;
+			border-radius: 50%;
+			display: flex;
+			justify-items: center;
+			margin: 10px 0px 0px 25px;
+		}
+		.dish p{
+			display: flex;
+			justify-content: center;
+		}
+
+		.dish label{
+			display: flex;
+			justify-content: center;
+			margin-top: 5px;
+		}
+
+		.dish input{
+			display: flex;
+			margin-top: 5px;
+			margin-left: 15px;
+		}
+
+		.dish button{
+			margin-top: 5px;
+			margin-left: 40px;
+			margin-bottom: 10px;
+			padding: 5px;
+		}
+
+		.bottam{
+			width: 100%;
+			height: 100px;
+			background: black;
+			border: 2px solid blue;
+			margin-top: 50px;
+		}
+
+		.order button{
+			margin: 40px 0px 0px 621px;
+			padding: 35px 35px 35px 35px;
+			border-radius: 50%;
+			font-size: 20px;
+			font-weight: 600;
+			background: linear-gradient(skyblue,whitess);
+		}
+
+		.order button:hover{
+			background: blue;
+			font-size: 30px;
+		}
+
+		}
+	</style>
+</head>
+<body>
+
+    
+		<div class="heading">
+			<img src="https://th.bing.com/th/id/R.d09002b6a1bcb269387fe31cecb7c8da?rik=V525nCEIPh%2bj9Q&riu=http%3a%2f%2f1.bp.blogspot.com%2f-R8YbIXCaF-o%2fU6KWLU3hCPI%2fAAAAAAAAATs%2fCt6dmZ__GG0%2fs1600%2fchef-cook-vector-illustration-31752983%2bcopy.png&ehk=qtD%2fnjvjRr%2fwLg5pcqftVWkyg0BG6uPr3QTBj8fYkyA%3d&risl=&pid=ImgRaw&r=0">
+			<h1>Hotel Menu</h1>
+		</div>
+
+		<div class="heading1">
+			<h3>Nasta</h3>
+		</div>
+
+		<div class="box">
+
+			<div class="dish-items">
+				<div class="dish d1"> 
+					<img src="https://th.bing.com/th/id/OIP.1KWrTNNFeCoo3L87Y_7JWQHaFj?pid=ImgDet&rs=1" alt="Samosa">
+					<p>Name Of Dish :- Samosa</p>
+					<p>Prise :- 15 &#8377;</p>
+					<label>Quantity</label>
+					<input type="number" name="">
+					<button>Add To Ordar List</button>
+				</div>
+
+				<div class="dish d1"> 
+					<img src="https://th.bing.com/th/id/OIP.BYBwfBMhPX-lYpChMAzRSgHaEK?w=314&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="Sabudna">
+					<p>Name Of Dish :- Sabudna</p>
+					<p>Prise :- 45 &#8377;</p>
+					<label>Quantity</label>
+					<input type="number" name="">
+					<button>Add To Ordar List</button>
+				</div>
+
+
+
+				<div class="dish d1"> 
+					<img src="https://th.bing.com/th/id/OIP.AsdxKRiWkO2SV_gPqhfFrwHaE8?w=253&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="Pohe">
+					<p>Name Of Dish :- Pohe</p>
+					<p>Prise :- 25 &#8377;</p>
+					<label>Quantity</label>
+					<input type="number" name="" max="50">
+					<button>Add To Ordar List</button>
+				</div>
+
+				<div class="dish d1"> 
+					<img src="https://th.bing.com/th/id/OIP.CVO2Oe_GF83LCs6JhElYDAAAAA?w=305&h=135&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="Edali">
+					<p>Name Of Dish :- Edali</p>
+					<p>Prise :- 40 &#8377;</p>
+					<label>Quantity</label>
+					<input type="number" name="" max="50">
+					<button>Add To Ordar List</button>
+				</div>
+
+				<div class="dish d1"> 
+					<img src="https://th.bing.com/th/id/OIP.e5OvSdxMr5dN4Ovh6mwg3gHaJ4?pid=ImgDet&rs=1" alt="Dosa">
+					<p>Name Of Dish :- Dosa</p>
+					<p>Prise :- 60 &#8377;</p>
+					<label>Quantity</label>
+					<input type="number" name="" max="50">
+					<button>Add To Ordar List</button>
+				</div>
+
+				<div class="dish d1"> 
+					<img src="https://th.bing.com/th/id/OIP.n5r1ViEqNhk6s7M3ynNnuwAAAA?pid=ImgDet&rs=1" alt="Bhaji">
+					<p>Name Of Dish :- Bhaji</p>
+					<p>Prise :- 20 &#8377;</p>
+					<label>Quantity</label>
+					<input type="number" name="" max="50">
+					<button>Add To Ordar List</button>
+				</div>
+
+				<div class="dish d1"> 
+					<img src="https://th.bing.com/th/id/R.7b0127144f2ead15cdf161d3f8e23f5a?rik=2Z3dPgQq1zCutQ&riu=http%3a%2f%2fwww.cityshor.com%2fuploads%2farticle%2f05_2016%2f1462359714_kanda_bhaji.png&ehk=BZt1PzIvZ0eYDkuCsVSw%2f2%2fJ3ji44wfTScMGfqvvQWs%3d&risl=&pid=ImgRaw&r=0" alt="Kanda Bhaji">
+					<p>Name Of Dish :- Kanda Bhaji</p>
+					<p>Prise :- 20 &#8377;</p>
+					<label>Quantity</label>
+					<input type="number" name="" min="50">
+					<button>Add To Ordar List</button>
+				</div>
+
+				<div class="dish d1"> 
+					<img src="https://th.bing.com/th/id/OIP.KPpqv0jVc-IfRotvy7YccgHaE7?w=270&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="Vada Pav">
+					<p>Name Of Dish :- Vada Pav</p>
+					<p>Prise :- 20 &#8377;</p>
+					<label>Quantity</label>
+					<input type="number" name="" min="50">
+					<button>Add To Ordar List</button>
+				</div>
+
+				<div class="dish d1"> 
+					<img src="https://th.bing.com/th/id/OIP.byf_QSVdUPXUR_6u_qg3hAHaFj?w=248&h=186&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="Kachori">
+					<p>Name Of Dish :- Kachori</p>
+					<p>Prise :- 15 &#8377;</p>
+					<label>Quantity</label>
+					<input type="number" name="" min="50">
+					<button>Add To Ordar List</button>
+				</div>
+
+				<div class="dish d1"> 
+					<img src="https://th.bing.com/th/id/OIP._fYghy6IvS8vcFJcr3v4fAHaFj?w=252&h=189&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="Pani Puri">
+					<p>Name Of Dish :- Pani Puri</p>
+					<p>Prise :- 30 &#8377;</p>
+					<label>Quantity</label>
+					<input type="number" name="" min="50">
+					<button>Add To Ordar List</button>
+				</div>
+
+				<div class="dish d1"> 
+					<img src="https://i1.wp.com/kalimirchbysmita.com/wp-content/uploads/2017/11/Pooris-03-1.jpg" alt="Puri Bhaji">
+					<p>Name Of Dish :- Puri Bhaji</p>
+					<p>Prise :- 45 &#8377;</p>
+					<label>Quantity</label>
+					<input type="number" name="" min="50">
+					<button>Add To Ordar List</button>
+				</div>
+
+				<div class="dish d1"> 
+					<img src="https://th.bing.com/th/id/OIP.KPpqv0jVc-IfRotvy7YccgHaE7?w=270&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="Vada Pav">
+					<p>Name Of Dish :- Vada Pav</p>
+					<p>Prise :- 20 &#8377;</p>
+					<label>Quantity</label>
+					<input type="number" name="" min="50">
+					<button>Add To Ordar List</button>
+				</div>
+
+				<div class="dish d1"> 
+					<img src="https://i.ytimg.com/vi/r_s15RTEZlk/maxresdefault.jpg" alt="Upita">
+					<p>Name Of Dish :- Upita</p>
+					<p>Prise :- 30 &#8377;</p>
+					<label>Quantity</label>
+					<input type="number" name="" min="50">
+					<button>Add To Ordar List</button>
+				</div>
+
+				<div class="dish d1"> 
+					<img src="https://s3-media0.fl.yelpcdn.com/bphoto/sDvO2KJz2br-Mz3SppBZmg/l.jpg" alt="Keshari Shria">
+					<p>Name Of Dish :- Keshari Shria</p>
+					<p>Prise :- 30 &#8377;</p>
+					<label>Quantity</label>
+					<input type="number" name="" min="50">
+					<button>Add To Ordar List</button>
+				</div>
+			</div>
+
+			<div class="order">
+				<button>Order Selected items</button>
+			</div>
+			<div class="bottam"></div>
+	</div>
+
+</body>
+</html>

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>table form</title>
+
+    <style>
+        body{
+            background-image: url(1.jpg);
+            background-size: cover;
+            margin: 0;
+            padding: 0;
+        }
+      td{
+        padding: 10px;
+      }
+      .box1{
+        width: 30%;
+        background: none;
+        margin-left: 450px;
+      }
+     button{
+        display: inline-block;
+        margin: auto; 
+      }
+      fieldset{
+        margin: 80px 50px 0 0;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="box1">
+      <fieldset>
+        <legend>Login Information</legend>
+        <form action="">
+          <table>
+            <tr>
+              <td>First Name</td>
+              <td>
+                <input type="text" placeholder="Enter Your first Name... " />
+              </td>
+            </tr>
+            <tr>
+              <td>Last Name</td>
+              <td>
+                <input type="text" placeholder="Enter Your last Name... " />
+              </td>
+            </tr>
+
+            <tr>
+              <td>Email</td>
+              <td>
+                <input type="email" placeholder="Enter Your E-mail..." />
+              </td>
+            </tr>
+            <tr>
+              <td>Password</td>
+              <td>
+                <input type="password" placeholder="Enter Your Password... " />
+              </td>
+            </tr>
+            <td class="btn">
+              <button>Reset</button>
+              <button>Login</button>
+            </td>
+          </table>
+        </form>
+      </fieldset>
+    </div>
+  </body>
+</html>
